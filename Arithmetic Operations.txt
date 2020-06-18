@@ -1,0 +1,3 @@
+read n
+result=$(echo "${n}" | bc -l)
+printf "%.3f" $result
